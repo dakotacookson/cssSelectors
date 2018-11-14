@@ -1,0 +1,63 @@
+
+
+header{
+    border-style: solid;
+    border-width: 1px;
+    border-color: goldenrod;
+
+}
+
+.active{
+    color:yellow
+}
+
+ul{
+    text-align: center;
+    display: flex;
+    padding: 2em;
+    margin: 2em;
+}
+
+li{
+    text-align: center;
+    margin: 2em;
+}
+
+.disabled{
+    color: purple;
+}
+
+a{
+    color:gray;
+}
+
+h4 + div > div{
+    color: red; 
+    background-color: white  
+}
+
+h4 + div > div + h4 > div{
+    color: blue; 
+    background-color: white 
+}
+
+h4 + div > h4{
+    background-color: red;  
+}
+
+h4 + div > h4 ~ h4{
+    background-color: blue;  
+}
+
+.promo{
+    color: gold;
+    border-style: dashed;
+    border-color: black;
+    border-width: thin;
+}
+
+.input{
+    margin: 20px;
+    height: 25px;
+}
+
