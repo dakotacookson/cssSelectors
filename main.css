@@ -12,14 +12,20 @@ header{
 }
 
 ul{
+    list-style: none;
+}
+
+nav{
+    list-style: none;
     text-align: center;
     display: flex;
     padding: 2em;
     margin: 2em;
 }
 
-li{
-    text-align: center;
+.month-list{
+    list-style: none;
+    display: block;
     margin: 2em;
 }
 
